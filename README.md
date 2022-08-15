@@ -2,6 +2,8 @@
 
 SVG template from <https://github.com/natemoo-re/natemoo-re>
 
+golang port from <https://github.com/kahnwong/subsonic-github-readme>
+
 ## Usage
 
 ```bash
