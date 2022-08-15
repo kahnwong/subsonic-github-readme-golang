@@ -14,6 +14,10 @@ func main() {
 		log.Println("Error creating output directory")
 	}
 
+	if authEnv.Token == "" {
+		log.Panic("Token is not set")
+	}
+
 	randomSongs := FetchRandomSongs(authEnv)
 	for i, song := range randomSongs {
 		track := ParseTrack(song)
